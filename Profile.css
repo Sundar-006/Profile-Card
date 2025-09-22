@@ -1,0 +1,82 @@
+body{
+    height: 600px;
+    background-color: hsl(185, 75%, 39%);
+     overflow: hidden;
+     font-family: "Kumbh Sans";
+    
+    
+}
+#top{
+    position:absolute;
+    right: 50%;
+    bottom: 50%;
+   z-index: -1;
+}
+#bottom{
+    position:absolute;
+    left: 40%;
+    top: 50%;
+   z-index: -1;
+   
+}
+.maincard{
+    position: relative;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 11%;
+   background-image: url(./Images/bg-pattern-card.svg); 
+   background-position: top; 
+   background-repeat: no-repeat;
+   background-size: 400px;
+   
+}
+.maincard img{
+     border-radius: 100px;
+     position:absolute;
+     top:27%;
+     left: 35%;
+     border: 6px solid white;
+}
+.info{
+    
+    position: absolute;
+    top:55%;
+    width: 100%;
+    
+}
+h4{
+    color: hsl(227, 10%, 46%);
+    font-weight:400;
+    margin-top: -10px;
+
+}
+.txt{
+     color: hsl(227, 10%, 46%); 
+     font-size: medium;
+    font-weight:500
+}
+hr{
+   color: hsl(227, 10%, 46%); 
+  
+}
+footer{
+    width: 85%;
+    display: flex;
+    justify-content:space-evenly;
+    position:relative;
+    top:85%;
+    gap: 15%;
+    font-size: bold;
+    font-weight: 700;
+    color:hsl(229, 23%, 23%);
+
+    
+    
+}
+.text{
+    color: hsl(227, 10%, 46%); 
+     font-size: small;
+    font-weight:400
+}
